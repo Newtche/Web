@@ -8,9 +8,9 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-image: url(holo.jpg);
+  background-image: url(peakpx.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: 430px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,13 +121,13 @@
 .fourth:hover {
   background-position: 0;
 }
- @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .card img {
     width: 100px;
   }
 }
 
- @media only screen and (max-width: 455px) {
+@media only screen and (max-width: 455px) {
   .card img {
     width: 90px;
   }
